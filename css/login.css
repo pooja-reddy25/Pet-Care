@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 500px;
+    background-color:  #acd5de;
+}
+.rightSection {
+    box-sizing: border-box;
+    display: flex;
+    padding: 160px;
+    flex-direction: column;
+    align-items: center;
+    color:#1a4e8d;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.name{
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"][type="email"][type="password"]{
+ width:100%;
+ padding: 20px;
+ border:1px solid #ccc;
+ border-radius: 4px;
+}
+
+.check{
+    padding: 10px;
+    text-align: center;
+}
+ 
+.submit-btn {
+    background-color:#1a4e8d; 
+    color: white; 
+    padding: 10px;
+    border: none; 
+    border-radius: 4px; 
+    width: 500px;
+    text-align: center;
+    margin-left: 50px;
+    border-style: outset;
+}
+.socialLogin{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color:#d1f6ff ; 
+    color: black;
+}
+
+.social-btn {
+    margin: 5px;
+    padding: 10px;
+    background-color: #d1f6ff; 
+    color: black; 
+    text-decoration: none; 
+    border-radius: 4px; 
+}
+
+.social-btn:hover {
+    background-color: aliceblue; 
+}
+
+.social-icon{
+    width: 30px;
+    height: auto; 
+    margin-right: 8px; 
+    vertical-align: middle;
+}
+
+
+.para{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+

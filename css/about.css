@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 500px;;
+    
+}
+.logo{
+    height: 60px;
+    background-color: #acd5de;
+    padding: 10px;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 20px;
+    background-color: #acd5de;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    margin-left: 40px;
+}
+nav ul li a{
+   
+    display: flex;
+    color: #1a4e8d; 
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+} 
+nav ul li a:hover{
+    background-color: #1a4e8d;
+    color: white;
+    border-radius: 10px;
+    
+}
+.main{
+    width: 100%;
+    padding: 30px;
+    background-color: #acd5de;
+}
+.main h6{
+    font-size: 30px;
+    color: #1a4e8d;
+    width: 50%;
+}
+.main h1{
+    font-size: 50px;
+    padding-top: 10px;
+    color: #1a4e8d;
+    width: 50%;
+}
+.container {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between; 
+    background-color: #acd5de;
+}
+
+.para{
+    margin-right: 20px;
+    width: 50%;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+.para h6{
+    font-size: 30px;
+    color: #1a4e8d;
+}
+.para p{
+    font-size: 20px;
+    padding-top: 30px;
+    gap: 20px;
+    color: #1a4e8d;
+}
+
+.image img {
+    width: 500px;
+    height: 400px; 
+    padding-right: 100px;
+}
+.stick {
+    position: fixed; 
+    bottom: 20px;   
+    right: 20px;  
+    z-index: 1;
+}
+
+.sticky-btn {
+    padding: 10px 20px;
+    background-color: #d1f6ff; 
+    color: #1a4e8d;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.team{
+    
+    text-align: center;
+    background-color: #1a4e8d;
+}
+.team h2{
+    font-size: 60px;
+    color: white;
+    padding-top: 90px;
+}
+.teams{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px;
+}
+.pics{
+    width: 250px;
+}
+.pics h2{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.pics h4{
+    font-size: 20px;
+    padding-top: 10px;
+    color: white;
+}
+.pics button{
+    margin-top:20px ;
+    border-radius: 40px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    margin-left: -10px;
+    margin-bottom: 20px;
+    color: #1a4e8d;
+    font-size: 20px;
+}
+.pics button:hover{
+    background-color: #acd5de;
+}
+.fivesection{
+    display:flex ;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 50px;
+    padding-left: 230px;
+    width: 1200px;
+    align-items: right;
+    color: #1a4e8d;
+ }
+ .Pet img{
+    width: 50px;
+    height: 50px;
+ }
+ .add h5{
+    font-size: 25px;
+    padding-bottom: 10px;
+ }
+ .Cont h5{
+    font-size: 25px;
+    padding-bottom: 10px;
+ }
+ .Social h5{
+    font-size: 25px;
+    padding-bottom: 10px;
+
+ }
+.fivesection p{
+    gap: 10px;
+}
+.foot{
+    text-align: center;
+    font-size:20px;
+}
